@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tên và Nhiệm vụ của từng thành viên</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 0;
+        }
+        .poster {
+            width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
+        h1 {
+            text-align: center;
+            color: #1a3cff;
+        }
+        h2 {
+            color: #ff4d4d;
+            margin-top: 25px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .members li {
+            margin: 8px 0;
+        }
+        .contact {
+            background-color: #eef2ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+		.title{
+  text-align:center;
+  margin-bottom:40px;
+}
+.members{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:30px;
+  text-align:center;
+}
+.member img{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  box-shadow:0 8px 20px rgba(0,0,0,.15);
+  margin-bottom:15px;
+}
+.member h4{
+  margin:5px 0;
+  color:#1e3c72;
+}
+.member p{
+  font-size:14px;
+  color:#666;
+}
+@media(max-width:900px){
+  .members{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.member h4 {
+    margin: 15px 0 5px;
+}
+.member p {
+    margin: 0;
+}
+.title {
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+        <h2>Thành viên CLB Truyền thông</h2>
+      <section>
+  <div class="container">
+    <h2 class="title">Ban Chủ Nhiệm</h2>
+    <div class="members">
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgTppfUWepB-CHhTsa3SIB4EFniFMNAAC9iIAAoW06Vfn4TR7RtIAAZU4BA.jpg">
+        <h4>Trần Thảo Vi </h4>
+        <p>Chủ Nhiệm</p>
+      </div>
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgUlpfUl2D0U5rUbZyil-Cy2PaEoYCAACBiMAAoW06Vcl5DZHZNpyMjgE.jpg">
+        <h4>Trần Thị Kim Huệ </h4>
+        <p>Phó Chủ Nhiệm - Trưởng ban truyền thông</p>
+      </div>
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgUBpfUdxJLweHX6TuW80Y8yeGF8vMAAC_CIAAoW06VeAzKr3AuebDjgE.jpg">
+        <h4>Ngọc Lài </h4>
+        <p>Trưởng Ban Design </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2 class="title">Ban truyền thông</h2>
+    <div class="members">
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgURpfUit1vWjypdzgPHq5UncFlBbVQACASMAAoW06Vdh4ZJBZWbKNjgE.jpg">
+        <h4>Bảo Ngọc </h4>
+      </div>
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgUVpfUjLvSlqk2mHqM50-THQhjSVrgACAiMAAoW06VfKoZ_QntOiGDgE.jpg">
+        <h4>Gia Hân </h4>   
+      </div>
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgT9pfUduatsC_DneIDOcVK99w1ypBQAC-yIAAoW06VcSugU8r9uEBjgE.jpg">
+        <h4>Thảo Nguyên</h4>
+      </div>
+      <div class="member">
+       <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgT5pfUdrheBWAAFoWlIbeKcJPWrB07EAAvoiAAKFtOlX5fFNlfuCqQU4BA.jpg">
+       <h4>Tâm Như</h4>
+      </div>
+      </div>
+      <div class="member">
+       <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgTxpfUdldWpDAAGIzjFH7jht0IMB6X8AAvgiAAKFtOlXkG6bGaUHN-Y4BA.jpg">
+       <h4>Phương Uyên </h4>
+      </div>
+      </div>
+      <div class="member">
+       <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgUFpfUd02tMxhgABDqBmlgWtrmhB7XAAAv0iAAKFtOlXGqTOJzMzfJc4BA.jpg">
+       <h4>Mỹ Trinh </h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2 class="title">Ban Content Writer </h2>
+    <div class="members">
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgUdpfUkE_KumSxUmY-d17GRZRDKKLwACBCMAAoW06VfrXTDXCNS9vDgE.jpg">
+        <h4>Khánh  Quỳnh </h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2 class="title">Ban Design </h2>
+    <div class="members">
+      <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgUZpfUj5jLvLGaoBI8qhEqK8Djd_xwACAyMAAoW06Ve_RnXqmj3-jzgE.jpg">
+        <h4>Thúy An </h4>
+      </div>
+          <div class="member">
+        <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQgT1pfUdpnDIJuMnFck9JlYRI_QlFqgAC-SIAAoW06VfnOr3LI-j1mDgE.jpg">
+        <h4>Quỳnh Như </h4>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
